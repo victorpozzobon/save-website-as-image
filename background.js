@@ -13,6 +13,7 @@ async function captureTab(tabId, y, width, height, outputFormat) {
       width,
       height,
     },
+    scale: 3,
   };
 
   if (outputFormat === "jpeg") {
